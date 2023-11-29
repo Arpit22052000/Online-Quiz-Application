@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- questions -->
+        <div id="questions">
+            <h3 id="question">Here the questions will be displayed </h3>
+
+            <!-- options -->
+            <div id="options">
+            <ol type="A">
+                <li class="a">option A</li>
+                <li class="b">option B</li>
+                <li class="c">option C</li>
+                <li class="d">option D</li>
+            </ol>
+            </div>
+
+            <!-- answer input -->
+            <div id="answer">
+                <input type="text">
+            </div>
+
+            <!-- submit option -->
+            <div id="submit">
+                <button id="enter">Submit</button>
+            </div>
+
+            <!-- Actual answer -->
+            <div id="actualAnswer">
+                <button id="showans">Show Answer</button>
+                <p id="actualans">Actual Answer</p>
+            </div>
+        </div>  
+    </div>
+    
+</body>
+<script src="index.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</html>
